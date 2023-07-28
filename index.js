@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // MongoDB connection setup
-const MONGODB_URI = 'mongodb+srv://kosuriravikanth:Mongo553136@cluster0.cvvip5o.mongodb.net/urlshort'; // Replace with your MongoDB connection string
+const MONGODB_URI = 'mongodb'; // Replace with your MongoDB connection string
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
